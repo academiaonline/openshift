@@ -38,7 +38,7 @@ In order to substitute the self-signed certificate by a valid one:
   ```bash
   sudo chown $USER. -R ~/environment/certs
   test -d $dir/tls/ || mkdir $dir/tls/
-  cp ~/environment/certs/live/api.$ClusterName.$DomainName/*.pem $dir/tls/  
+  cp ~/environment/certs/live/api.$ClusterName.$DomainName/*.pem $dir/tls/
   ```
   2. Create a secret that contains the certificate and key in the openshift-config namespace.
   ```bash
