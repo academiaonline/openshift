@@ -5,7 +5,7 @@ Instructions to install OCP in a previously created VPC:
 First follow these instructions:
 * [Initial setup](initial.md)
 
-In case you want to install your cluster in an already existing VPC then you will need to add the subnet IDs to the platform.aws.subnets field:
+In case you want to install your cluster in an already existing VPC then you will need to add the subnet IDs to the platform.aws.subnets field in the install-config.yaml previously generated:
 ```bash
 platform:
   aws:
