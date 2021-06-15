@@ -24,7 +24,10 @@ rm -rf $project
 You will need to obtain a valid public domain name before installing the cluster:
 * https://console.aws.amazon.com/route53/home
 
-Disable AWS managed temporary credentials in AWS Cloud9 settings. Now you need to create a new Access Key in your AWS IAM Security Credentials and then configure your AWS Cloud9 terminal:
+Disable AWS managed temporary credentials in AWS Cloud9 settings. 
+
+Now you need to create a new Access Key in your AWS IAM Security Credentials and then configure your AWS Cloud9 terminal:
+* https://console.aws.amazon.com/iam/home
 ```bash
 aws configure
 ```
